@@ -26,7 +26,8 @@
     "dev": "bunchee --watch",
     "dev:test": "turbo run dev --filter=test...",
     "format": "prettier --write .",
-    "test": "playwright test"
+    "test": "playwright test",
+    "prepack": "pnpm build"
   },
   "keywords": [
     "react",
